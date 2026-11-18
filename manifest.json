@@ -1,0 +1,3756 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "f3750b563aca4b86dfd09de17424fd0ccb47c50e2f050f43ff677ff71538d597",
+  "defaultLocale": "en",
+  "locales": [
+    {
+      "id": "en",
+      "label": "English"
+    }
+  ],
+  "sections": [
+    {
+      "id": "start",
+      "title": "Getting started"
+    },
+    {
+      "id": "account",
+      "title": "Account and security"
+    },
+    {
+      "id": "dashboard",
+      "title": "Notifications and reporting"
+    },
+    {
+      "id": "site",
+      "title": "Site and publishing"
+    },
+    {
+      "id": "content",
+      "title": "Pages and content"
+    },
+    {
+      "id": "media",
+      "title": "Images and media"
+    },
+    {
+      "id": "design",
+      "title": "Themes and schema"
+    },
+    {
+      "id": "ai",
+      "title": "AI and agents"
+    },
+    {
+      "id": "analytics",
+      "title": "Page analytics"
+    },
+    {
+      "id": "integrations",
+      "title": "Integrations and social"
+    },
+    {
+      "id": "settings",
+      "title": "Settings"
+    },
+    {
+      "id": "users",
+      "title": "Users and roles"
+    },
+    {
+      "id": "operations",
+      "title": "Operations and maintenance"
+    },
+    {
+      "id": "tools",
+      "title": "MCP and other tools"
+    }
+  ],
+  "articles": [
+    {
+      "id": "start-first-install",
+      "locale": "en",
+      "section": "start",
+      "title": "Set up a new BidoCMS installation",
+      "description": "The first-time setup wizard creates a limited database identity and the first administrator for an installation. Use the secure address provided by the server operator. An existing installation shows an already-configured state and links to sign-in.",
+      "path": "articles/en/start-first-install.md",
+      "keywords": [
+        "Set up BidoCMS",
+        "start first install"
+      ],
+      "headings": [
+        {
+          "id": "before-starting",
+          "title": "Before starting",
+          "level": 2
+        },
+        {
+          "id": "database",
+          "title": "Database",
+          "level": 2
+        },
+        {
+          "id": "first-administrator",
+          "title": "First administrator",
+          "level": 2
+        },
+        {
+          "id": "resolve-setup-problems",
+          "title": "Resolve setup problems",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Set up BidoCMS"
+      ],
+      "menuIds": [
+        "setup"
+      ]
+    },
+    {
+      "id": "start-menu-reference",
+      "locale": "en",
+      "section": "start",
+      "title": "BidoCMS panel menu reference",
+      "description": "Find the help article for a sidebar menu or tab. The names below follow the English Users → Roles menu catalog. Visible workspaces depend on your role, installation version, and feature configuration.",
+      "path": "articles/en/start-menu-reference.md",
+      "keywords": [
+        "start menu reference"
+      ],
+      "headings": [
+        {
+          "id": "notifications",
+          "title": "Notifications",
+          "level": 2
+        },
+        {
+          "id": "site",
+          "title": "Site",
+          "level": 2
+        },
+        {
+          "id": "pages",
+          "title": "Pages",
+          "level": 2
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "level": 2
+        },
+        {
+          "id": "ai",
+          "title": "AI",
+          "level": 2
+        },
+        {
+          "id": "agents",
+          "title": "Agents",
+          "level": 2
+        },
+        {
+          "id": "themes",
+          "title": "Themes",
+          "level": 2
+        },
+        {
+          "id": "environment",
+          "title": "Environment",
+          "level": 2
+        },
+        {
+          "id": "redirects",
+          "title": "Redirects",
+          "level": 2
+        },
+        {
+          "id": "schema",
+          "title": "Schema",
+          "level": 2
+        },
+        {
+          "id": "notes",
+          "title": "Notes",
+          "level": 2
+        },
+        {
+          "id": "users",
+          "title": "Users",
+          "level": 2
+        },
+        {
+          "id": "scripts",
+          "title": "Scripts",
+          "level": 2
+        },
+        {
+          "id": "publish",
+          "title": "Publish",
+          "level": 2
+        },
+        {
+          "id": "backup",
+          "title": "Backup",
+          "level": 2
+        },
+        {
+          "id": "export",
+          "title": "Export",
+          "level": 2
+        },
+        {
+          "id": "ssh-access",
+          "title": "SSH access",
+          "level": 2
+        },
+        {
+          "id": "mcp-server",
+          "title": "MCP Server",
+          "level": 2
+        },
+        {
+          "id": "social",
+          "title": "Social",
+          "level": 2
+        },
+        {
+          "id": "console",
+          "title": "Console",
+          "level": 2
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor",
+          "level": 2
+        },
+        {
+          "id": "files",
+          "title": "Files",
+          "level": 2
+        },
+        {
+          "id": "settings",
+          "title": "Settings",
+          "level": 2
+        },
+        {
+          "id": "sign-in-profile-and-help",
+          "title": "Sign-in, profile, and help",
+          "level": 2
+        }
+      ],
+      "routes": [],
+      "menuIds": []
+    },
+    {
+      "id": "start-panel-navigation",
+      "locale": "en",
+      "section": "start",
+      "title": "Find your way around the BidoCMS panel",
+      "description": "The BidoCMS panel is the administration workspace for one installation. Open the sign-in address supplied by your administrator. Each installation can have its own site domain and CMS address.",
+      "path": "articles/en/start-panel-navigation.md",
+      "keywords": [
+        "Help",
+        "start panel navigation"
+      ],
+      "headings": [
+        {
+          "id": "open-a-workspace",
+          "title": "Open a workspace",
+          "level": 2
+        },
+        {
+          "id": "use-the-header",
+          "title": "Use the header",
+          "level": 2
+        },
+        {
+          "id": "which-menus-you-can-see",
+          "title": "Which menus you can see",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Help"
+      ],
+      "menuIds": [
+        "help"
+      ]
+    },
+    {
+      "id": "account-profile-and-security",
+      "locale": "en",
+      "section": "account",
+      "title": "Update your profile and secure your account",
+      "description": "Select the displayed account name in the sidebar to open Profile. All authenticated users can use Profile even when the Users administration menu is hidden from their role.",
+      "path": "articles/en/account-profile-and-security.md",
+      "keywords": [
+        "Profile",
+        "Profile details",
+        "Security",
+        "account profile and security"
+      ],
+      "headings": [
+        {
+          "id": "profile-details",
+          "title": "Profile details",
+          "level": 2
+        },
+        {
+          "id": "change-password",
+          "title": "Change password",
+          "level": 2
+        },
+        {
+          "id": "turn-on-two-step-authentication",
+          "title": "Turn on two-step authentication",
+          "level": 2
+        },
+        {
+          "id": "turn-off-two-step-authentication",
+          "title": "Turn off two-step authentication",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Profile",
+        "Profile → Profile details",
+        "Profile → Security"
+      ],
+      "menuIds": [
+        "profile",
+        "profile.details",
+        "profile.security"
+      ]
+    },
+    {
+      "id": "account-sign-in",
+      "locale": "en",
+      "section": "account",
+      "title": "Sign in, sign out, and recover access",
+      "description": "Use your installation's login page with the email associated with your BidoCMS account. Each installation has its own access and administrator.",
+      "path": "articles/en/account-sign-in.md",
+      "keywords": [
+        "Log In",
+        "Log out",
+        "account sign in"
+      ],
+      "headings": [
+        {
+          "id": "sign-in",
+          "title": "Sign in",
+          "level": 2
+        },
+        {
+          "id": "replace-a-temporary-password",
+          "title": "Replace a temporary password",
+          "level": 2
+        },
+        {
+          "id": "recover-a-forgotten-password",
+          "title": "Recover a forgotten password",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot-login",
+          "title": "Troubleshoot login",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Log In",
+        "Log out"
+      ],
+      "menuIds": [
+        "login",
+        "logout"
+      ]
+    },
+    {
+      "id": "dashboard-live-analytics",
+      "locale": "en",
+      "section": "dashboard",
+      "title": "Check recent website activity in Google Analytics live",
+      "description": "The Google Analytics live card in the Notification workspace reads realtime traffic for the Google Analytics 4 property connected to this BidoCMS installation. This dashboard card is available to the built-in administrator with the appropriate workspace access.",
+      "path": "articles/en/dashboard-live-analytics.md",
+      "keywords": [
+        "Notifications",
+        "dashboard live analytics"
+      ],
+      "headings": [
+        {
+          "id": "read-the-card",
+          "title": "Read the card",
+          "level": 2
+        },
+        {
+          "id": "if-the-card-does-not-show-the-expected-data",
+          "title": "If the card does not show the expected data",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Notifications"
+      ],
+      "menuIds": [
+        "notification"
+      ]
+    },
+    {
+      "id": "dashboard-notifications",
+      "locale": "en",
+      "section": "dashboard",
+      "title": "Use and rearrange the Notifications dashboard",
+      "description": "Notification is the sidebar entry for the Notifications dashboard for site status, integrations, and operations. It loads each available card independently so you can use results as soon as they arrive.",
+      "path": "articles/en/dashboard-notifications.md",
+      "keywords": [
+        "Notifications",
+        "dashboard notifications"
+      ],
+      "headings": [
+        {
+          "id": "open-and-refresh-the-dashboard",
+          "title": "Open and refresh the dashboard",
+          "level": 2
+        },
+        {
+          "id": "rearrange-cards",
+          "title": "Rearrange cards",
+          "level": 2
+        },
+        {
+          "id": "why-a-card-may-be-missing-or-empty",
+          "title": "Why a card may be missing or empty",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Notifications"
+      ],
+      "menuIds": [
+        "notification"
+      ]
+    },
+    {
+      "id": "dashboard-search-and-pages",
+      "locale": "en",
+      "section": "dashboard",
+      "title": "Read Google Search and site-page cards",
+      "description": "Open Notification in the sidebar for three related views of search activity and published content. Index coverage and clicks come from Search Console. BidoCMS provides its own page totals and publication counts.",
+      "path": "articles/en/dashboard-search-and-pages.md",
+      "keywords": [
+        "Notifications",
+        "dashboard search and pages"
+      ],
+      "headings": [
+        {
+          "id": "google-search-performance",
+          "title": "Google Search performance",
+          "level": 2
+        },
+        {
+          "id": "pages-google-hasnt-indexed",
+          "title": "Pages Google hasn’t indexed",
+          "level": 2
+        },
+        {
+          "id": "site-pages",
+          "title": "Site pages",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Notifications"
+      ],
+      "menuIds": [
+        "notification"
+      ]
+    },
+    {
+      "id": "dashboard-system-health",
+      "locale": "en",
+      "section": "dashboard",
+      "title": "Check backups, server load, and logs in Notifications",
+      "description": "The operational cards in the Notification workspace provide an at-a-glance view of backup history, six-hour resource use, and recent server logs. Availability depends on the installation and your account's permissions.",
+      "path": "articles/en/dashboard-system-health.md",
+      "keywords": [
+        "Notifications",
+        "Console",
+        "Monitor",
+        "dashboard system health"
+      ],
+      "headings": [
+        {
+          "id": "latest-backup",
+          "title": "Latest backup",
+          "level": 2
+        },
+        {
+          "id": "cpu-ram-usage",
+          "title": "CPU & RAM usage",
+          "level": 2
+        },
+        {
+          "id": "server-console",
+          "title": "Server console",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Notifications",
+        "Console",
+        "Monitor"
+      ],
+      "menuIds": [
+        "notification",
+        "console",
+        "monitor"
+      ]
+    },
+    {
+      "id": "site-branding-and-pwa",
+      "locale": "en",
+      "section": "site",
+      "title": "Site logo, favicon, and web app manifest",
+      "description": "Open Site → General to change the CMS site branding and configure the installable web app. The BidoCMS product badge and the site's own branding both appear in the CMS header when site branding is available.",
+      "path": "articles/en/site-branding-and-pwa.md",
+      "keywords": [
+        "Site",
+        "General",
+        "site branding and pwa"
+      ],
+      "headings": [
+        {
+          "id": "set-the-site-logo-or-favicon",
+          "title": "Set the site logo or favicon",
+          "level": 2
+        },
+        {
+          "id": "configure-the-web-app-manifest",
+          "title": "Configure the web app manifest",
+          "level": 2
+        },
+        {
+          "id": "verify-a-branding-change",
+          "title": "Verify a branding change",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site",
+        "Site → General"
+      ],
+      "menuIds": [
+        "site",
+        "site.general"
+      ]
+    },
+    {
+      "id": "site-discovery-files",
+      "locale": "en",
+      "section": "site",
+      "title": "Sitemap, robots.txt, and AI discovery files",
+      "description": "Use Site → General to manage publicly served discovery files. Make sure Site Address reflects the live site before rebuilding or checking any of these files.",
+      "path": "articles/en/site-discovery-files.md",
+      "keywords": [
+        "Site",
+        "General",
+        "site discovery files"
+      ],
+      "headings": [
+        {
+          "id": "sitemap-address",
+          "title": "Sitemap Address",
+          "level": 2
+        },
+        {
+          "id": "robots-file",
+          "title": "Robots File",
+          "level": 2
+        },
+        {
+          "id": "llms-file-and-llms-full-file",
+          "title": "LLMs File and LLMs Full File",
+          "level": 2
+        },
+        {
+          "id": "if-the-output-does-not-match-the-form",
+          "title": "If the output does not match the form",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site",
+        "Site → General"
+      ],
+      "menuIds": [
+        "site",
+        "site.general"
+      ]
+    },
+    {
+      "id": "site-general-settings",
+      "locale": "en",
+      "section": "site",
+      "title": "Site settings",
+      "description": "Open Site → General for installation-wide settings such as the public address, branding, discovery files, and code inserted into generated pages. Use a language tab in Site for the title, description, and theme of one language.",
+      "path": "articles/en/site-general-settings.md",
+      "keywords": [
+        "Site",
+        "General",
+        "site general settings"
+      ],
+      "headings": [
+        {
+          "id": "general-fields",
+          "title": "General fields",
+          "level": 2
+        },
+        {
+          "id": "change-and-verify-a-setting",
+          "title": "Change and verify a setting",
+          "level": 2
+        },
+        {
+          "id": "choose-the-smallest-scope-for-code-changes",
+          "title": "Choose the smallest scope for code changes",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site",
+        "Site → General"
+      ],
+      "menuIds": [
+        "site",
+        "site.general"
+      ]
+    },
+    {
+      "id": "site-image-tags",
+      "locale": "en",
+      "section": "site",
+      "title": "Site image tag list",
+      "description": "Open Site → Image Tags to maintain the list of tag names available in the image album. Tags can support categories such as Team, Products, and Office.",
+      "path": "articles/en/site-image-tags.md",
+      "keywords": [
+        "Image tags",
+        "Tags",
+        "site image tags"
+      ],
+      "headings": [
+        {
+          "id": "work-in-the-panel",
+          "title": "Work in the panel",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site → Image tags",
+        "Images → Tags"
+      ],
+      "menuIds": [
+        "site.imageTags",
+        "images.tags"
+      ]
+    },
+    {
+      "id": "site-languages",
+      "locale": "en",
+      "section": "site",
+      "title": "Website languages and theme variables",
+      "description": "Website languages control which language versions you can edit for public pages. Open Site and select the language tab to edit one version, or select + to add a language. The panel language and direction are configured separately in Settings.",
+      "path": "articles/en/site-languages.md",
+      "keywords": [
+        "Languages",
+        "site languages"
+      ],
+      "headings": [
+        {
+          "id": "add-a-website-language",
+          "title": "Add a website language",
+          "level": 2
+        },
+        {
+          "id": "edit-the-existing-language",
+          "title": "Edit the existing language",
+          "level": 2
+        },
+        {
+          "id": "delete-a-language",
+          "title": "Delete a language",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site → Languages"
+      ],
+      "menuIds": [
+        "site.languages"
+      ]
+    },
+    {
+      "id": "site-page-types",
+      "locale": "en",
+      "section": "site",
+      "title": "Site page types and theme template mappings",
+      "description": "Open Site → Site NodeType to manage site page types. A site page type is the option selected under Pages → General → Node type. It connects the same page to a theme template for each configured website language.",
+      "path": "articles/en/site-page-types.md",
+      "keywords": [
+        "Page types",
+        "site page types"
+      ],
+      "headings": [
+        {
+          "id": "add-and-map-a-page-type",
+          "title": "Add and map a page type",
+          "level": 2
+        },
+        {
+          "id": "type-level-header-and-body-fields",
+          "title": "Type-level header and body fields",
+          "level": 2
+        },
+        {
+          "id": "delete-an-unused-type",
+          "title": "Delete an unused type",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Site → Page types"
+      ],
+      "menuIds": [
+        "site.types"
+      ]
+    },
+    {
+      "id": "site-publish-configuration",
+      "locale": "en",
+      "section": "site",
+      "title": "Publish settings, S3, and CDN",
+      "description": "Open Publish → Settings to choose where generated files are published and configure the CDN. Generated files are always written to the server. Enabling Publish on S3 also uploads them to object storage and requires the Cloudflare CDN option.",
+      "path": "articles/en/site-publish-configuration.md",
+      "keywords": [
+        "Publish",
+        "Settings",
+        "site publish configuration"
+      ],
+      "headings": [
+        {
+          "id": "configure-s3-publishing",
+          "title": "Configure S3 publishing",
+          "level": 2
+        },
+        {
+          "id": "configure-cloudflare-and-save",
+          "title": "Configure Cloudflare and save",
+          "level": 2
+        },
+        {
+          "id": "test-or-sync-the-saved-configuration",
+          "title": "Test or sync the saved configuration",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Publish",
+        "Publish → Settings"
+      ],
+      "menuIds": [
+        "publish",
+        "publish.settings"
+      ]
+    },
+    {
+      "id": "site-publishing",
+      "locale": "en",
+      "section": "site",
+      "title": "Preview and publish pages",
+      "description": "BidoCMS saves content in the panel and generates website output through publishing. After saving a page, use the preview and publish controls in the header, or open Publish → Publish Queue to watch the background queue.",
+      "path": "articles/en/site-publishing.md",
+      "keywords": [
+        "Publish",
+        "Publish queue",
+        "site publishing"
+      ],
+      "headings": [
+        {
+          "id": "preview-one-page",
+          "title": "Preview one page",
+          "level": 2
+        },
+        {
+          "id": "publish-one-page-or-the-whole-site",
+          "title": "Publish one page or the whole site",
+          "level": 2
+        },
+        {
+          "id": "read-the-publish-queue",
+          "title": "Read the Publish Queue",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Publish",
+        "Publish → Publish queue"
+      ],
+      "menuIds": [
+        "publish",
+        "publish.queue"
+      ]
+    },
+    {
+      "id": "site-redirects",
+      "locale": "en",
+      "section": "site",
+      "title": "Redirects",
+      "description": "Open Redirects to tell the public site where to send requests for an old path. Published redirect rules send an HTTP 301 response. Use this when moving a public page or sending an obsolete path to a replacement.",
+      "path": "articles/en/site-redirects.md",
+      "keywords": [
+        "Redirects",
+        "site redirects"
+      ],
+      "headings": [
+        {
+          "id": "add-an-internal-redirect",
+          "title": "Add an internal redirect",
+          "level": 2
+        },
+        {
+          "id": "point-an-old-path-to-another-domain",
+          "title": "Point an old path to another domain",
+          "level": 2
+        },
+        {
+          "id": "edit-remove-or-troubleshoot-a-rule",
+          "title": "Edit, remove, or troubleshoot a rule",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Redirects"
+      ],
+      "menuIds": [
+        "redirects"
+      ]
+    },
+    {
+      "id": "content-page-comments",
+      "locale": "en",
+      "section": "content",
+      "title": "Page comments",
+      "description": "Open Pages, select a page and language, then select Comment when it is available. This tab requests comments for that page language.",
+      "path": "articles/en/content-page-comments.md",
+      "keywords": [
+        "Comments",
+        "content page comments"
+      ],
+      "headings": [
+        {
+          "id": "current-release-behavior",
+          "title": "Current release behavior",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Comments"
+      ],
+      "menuIds": [
+        "nodes.comment"
+      ]
+    },
+    {
+      "id": "content-page-extra",
+      "locale": "en",
+      "section": "content",
+      "title": "Page-specific code in Extra",
+      "description": "Open Pages, select a page and language, then choose Extra. Changes apply to the selected language version of this page. Use the following fields when a page needs markup, CSS, or script beyond what its theme already provides.",
+      "path": "articles/en/content-page-extra.md",
+      "keywords": [
+        "Extra",
+        "content page extra"
+      ],
+      "headings": [
+        {
+          "id": "save-preview-and-remove-code",
+          "title": "Save, preview, and remove code",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Extra"
+      ],
+      "menuIds": [
+        "nodes.extra"
+      ]
+    },
+    {
+      "id": "content-page-faq",
+      "locale": "en",
+      "section": "content",
+      "title": "Add and reorder page FAQs",
+      "description": "Open Pages, select a page language, then choose FAQ. Questions and answers belong to the selected language. Display on the public page depends on its theme template.",
+      "path": "articles/en/content-page-faq.md",
+      "keywords": [
+        "FAQ",
+        "content page faq"
+      ],
+      "headings": [
+        {
+          "id": "add-a-question-and-answer",
+          "title": "Add a question and answer",
+          "level": 2
+        },
+        {
+          "id": "reorder-or-remove-questions",
+          "title": "Reorder or remove questions",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → FAQ"
+      ],
+      "menuIds": [
+        "nodes.faq"
+      ]
+    },
+    {
+      "id": "content-page-general",
+      "locale": "en",
+      "section": "content",
+      "title": "Page General tab",
+      "description": "Open Pages, select a page, and open General. These settings apply to the page entry shared across all its language versions.",
+      "path": "articles/en/content-page-general.md",
+      "keywords": [
+        "General",
+        "content page general"
+      ],
+      "headings": [
+        {
+          "id": "rename-a-page-or-change-its-type",
+          "title": "Rename a page or change its type",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot-a-missing-template-or-field",
+          "title": "Troubleshoot a missing template or field",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → General"
+      ],
+      "menuIds": [
+        "nodes.general"
+      ]
+    },
+    {
+      "id": "content-page-how-to",
+      "locale": "en",
+      "section": "content",
+      "title": "Add supplies, tools, and steps to a page",
+      "description": "Open Pages, select a page and language, then choose How To. This workspace records the supplies, tools, and steps for a procedure separately from the page's rich-text sections.",
+      "path": "articles/en/content-page-how-to.md",
+      "keywords": [
+        "How to",
+        "content page how to"
+      ],
+      "headings": [
+        {
+          "id": "use-the-how-to-tab",
+          "title": "Use the How To tab",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → How to"
+      ],
+      "menuIds": [
+        "nodes.howto"
+      ]
+    },
+    {
+      "id": "content-page-main-content",
+      "locale": "en",
+      "section": "content",
+      "title": "Page Main Content and SEO settings",
+      "description": "Open Pages, select a page and its website language, then choose Main Content. This tab holds the public address, primary metadata, image selection, and publishing options for that language.",
+      "path": "articles/en/content-page-main-content.md",
+      "keywords": [
+        "Main content",
+        "content page main content"
+      ],
+      "headings": [
+        {
+          "id": "edit-or-translate-a-page",
+          "title": "Edit or translate a page",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot-a-url-or-short-link",
+          "title": "Troubleshoot a URL or short link",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Main content"
+      ],
+      "menuIds": [
+        "nodes.content"
+      ]
+    },
+    {
+      "id": "content-page-schema",
+      "locale": "en",
+      "section": "content",
+      "title": "Page Schema and JSON-LD preview",
+      "description": "Open Pages, select a page and language, then select Schema. This tab shows the structured data references and optional manual JSON-LD for that page version.",
+      "path": "articles/en/content-page-schema.md",
+      "keywords": [
+        "Schema",
+        "content page schema"
+      ],
+      "headings": [
+        {
+          "id": "review-or-override-page-type-defaults",
+          "title": "Review or override page type defaults",
+          "level": 2
+        },
+        {
+          "id": "add-manual-json-ld",
+          "title": "Add manual JSON-LD",
+          "level": 2
+        },
+        {
+          "id": "preview-save-and-publish",
+          "title": "Preview, save, and publish",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Schema"
+      ],
+      "menuIds": [
+        "nodes.schema"
+      ]
+    },
+    {
+      "id": "content-page-specifications",
+      "locale": "en",
+      "section": "content",
+      "title": "Page specifications",
+      "description": "Open Pages, select a page language, and open Specification. Specifications are named data fields that the selected page type or theme can use to display attributes on the website.",
+      "path": "articles/en/content-page-specifications.md",
+      "keywords": [
+        "Specifications",
+        "content page specifications"
+      ],
+      "headings": [
+        {
+          "id": "fill-in-existing-specification-values",
+          "title": "Fill in existing specification values",
+          "level": 2
+        },
+        {
+          "id": "create-a-specification-definition",
+          "title": "Create a specification definition",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Specifications"
+      ],
+      "menuIds": [
+        "nodes.specification"
+      ]
+    },
+    {
+      "id": "content-page-tree",
+      "locale": "en",
+      "section": "content",
+      "title": "Find, create, and move pages",
+      "description": "Open Pages in the CMS sidebar. The page tree shows the shared structure of the website. Each entry is called a page or node. Its tree name, type, and parent are shared across languages. A page's website content is edited separately for each language.",
+      "path": "articles/en/content-page-tree.md",
+      "keywords": [
+        "Pages",
+        "content page tree"
+      ],
+      "headings": [
+        {
+          "id": "open-an-existing-page",
+          "title": "Open an existing page",
+          "level": 2
+        },
+        {
+          "id": "create-a-page-under-an-existing-page",
+          "title": "Create a page under an existing page",
+          "level": 2
+        },
+        {
+          "id": "move-a-page-in-the-tree",
+          "title": "Move a page in the tree",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages"
+      ],
+      "menuIds": [
+        "nodes"
+      ]
+    },
+    {
+      "id": "content-page-video",
+      "locale": "en",
+      "section": "content",
+      "title": "Add video details to a page",
+      "description": "Open Pages, select the page and language, then choose Video. Video rows hold the URLs and duration used by a theme's video section.",
+      "path": "articles/en/content-page-video.md",
+      "keywords": [
+        "Video",
+        "content page video"
+      ],
+      "headings": [
+        {
+          "id": "work-in-the-panel",
+          "title": "Work in the panel",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Video"
+      ],
+      "menuIds": [
+        "nodes.video"
+      ]
+    },
+    {
+      "id": "content-text-editor",
+      "locale": "en",
+      "section": "content",
+      "title": "Page text and rich-text editor",
+      "description": "Open Pages, select a page and language, then open Text. The selected theme template defines the available sections. A layout might contain one main field, multiple named blocks, or no editable rich-text section.",
+      "path": "articles/en/content-text-editor.md",
+      "keywords": [
+        "Main content",
+        "Text",
+        "content text editor"
+      ],
+      "headings": [
+        {
+          "id": "open-and-save-a-text-section",
+          "title": "Open and save a text section",
+          "level": 2
+        },
+        {
+          "id": "formatting-media-and-links",
+          "title": "Formatting, media, and links",
+          "level": 2
+        },
+        {
+          "id": "text-insights",
+          "title": "Text insights",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Main content",
+        "Pages → Text"
+      ],
+      "menuIds": [
+        "nodes.content",
+        "nodes.text"
+      ]
+    },
+    {
+      "id": "media-ai-image-source",
+      "locale": "en",
+      "section": "media",
+      "title": "Generate and edit images with AI",
+      "description": "Use Images → Generate image to create an image in the current regular folder. To work from an existing original, select an image and open Details → Source.",
+      "path": "articles/en/media-ai-image-source.md",
+      "keywords": [
+        "AI source",
+        "media ai image source"
+      ],
+      "headings": [
+        {
+          "id": "generate-a-new-image",
+          "title": "Generate a new image",
+          "level": 2
+        },
+        {
+          "id": "edit-an-existing-image",
+          "title": "Edit an existing image",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Images → AI source"
+      ],
+      "menuIds": [
+        "images.source"
+      ]
+    },
+    {
+      "id": "media-image-album",
+      "locale": "en",
+      "section": "media",
+      "title": "Image album, uploads, and folders",
+      "description": "Open Images to organize the reusable media album. Regular folders hold image files. Virtual tag folders show files associated with a tag.",
+      "path": "articles/en/media-image-album.md",
+      "keywords": [
+        "Images",
+        "media image album"
+      ],
+      "headings": [
+        {
+          "id": "open-a-folder-and-select-images",
+          "title": "Open a folder and select images",
+          "level": 2
+        },
+        {
+          "id": "import-or-organize-files",
+          "title": "Import or organize files",
+          "level": 2
+        },
+        {
+          "id": "delete-an-item-or-troubleshoot-an-import",
+          "title": "Delete an item or troubleshoot an import",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Images"
+      ],
+      "menuIds": [
+        "images"
+      ]
+    },
+    {
+      "id": "media-image-metadata",
+      "locale": "en",
+      "section": "media",
+      "title": "Image alt text, titles, captions, and tags",
+      "description": "Open Images, select an image, and choose Details. Use Detail for localized text and Tags for organizing the album.",
+      "path": "articles/en/media-image-metadata.md",
+      "keywords": [
+        "Details",
+        "Tags",
+        "media image metadata"
+      ],
+      "headings": [
+        {
+          "id": "edit-the-metadata-of-one-language",
+          "title": "Edit the metadata of one language",
+          "level": 2
+        },
+        {
+          "id": "write-descriptions-with-ai",
+          "title": "Write descriptions with AI",
+          "level": 2
+        },
+        {
+          "id": "assign-or-remove-an-image-tag",
+          "title": "Assign or remove an image tag",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Images → Details",
+        "Images → Tags"
+      ],
+      "menuIds": [
+        "images.details",
+        "images.tags"
+      ]
+    },
+    {
+      "id": "media-image-sizes",
+      "locale": "en",
+      "section": "media",
+      "title": "Crop, scale, and rotate image variants",
+      "description": "Open Images, select one image, choose Details, and then select a tab labeled with a size such as 1200×630. The available dimensions come from the installation's image size configuration. A theme text field can limit the picker to only the variants it uses.",
+      "path": "articles/en/media-image-sizes.md",
+      "keywords": [
+        "Image sizes",
+        "media image sizes"
+      ],
+      "headings": [
+        {
+          "id": "adjust-the-selected-size",
+          "title": "Adjust the selected size",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Images → Image sizes"
+      ],
+      "menuIds": [
+        "images.sizes"
+      ]
+    },
+    {
+      "id": "design-schema-definitions",
+      "locale": "en",
+      "section": "design",
+      "title": "Schema definitions and JSON-LD formats",
+      "description": "Open Schema → Definitions to view and manage reusable structured-data definitions. The list can include built-in presets marked with a star, theme-imported schemas, and custom schemas.",
+      "path": "articles/en/design-schema-definitions.md",
+      "keywords": [
+        "Schema",
+        "Definitions",
+        "design schema definitions"
+      ],
+      "headings": [
+        {
+          "id": "create-a-definition",
+          "title": "Create a definition",
+          "level": 2
+        },
+        {
+          "id": "input-parameters",
+          "title": "Input parameters",
+          "level": 2
+        },
+        {
+          "id": "manage-an-existing-definition",
+          "title": "Manage an existing definition",
+          "level": 2
+        },
+        {
+          "id": "built-in-reference-keys",
+          "title": "Built-in reference keys",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Schema",
+        "Schema → Definitions"
+      ],
+      "menuIds": [
+        "schema",
+        "schema.definitions"
+      ]
+    },
+    {
+      "id": "design-schema-page-types",
+      "locale": "en",
+      "section": "design",
+      "title": "Assign schema defaults to theme page types",
+      "description": "Open Schema → Page types to configure the default structured-data references associated with a theme template. This page works with the theme's page types. Site → Site NodeType maps the site's own page types to these theme templates for each language.",
+      "path": "articles/en/design-schema-page-types.md",
+      "keywords": [
+        "Schema",
+        "Page types",
+        "design schema page types"
+      ],
+      "headings": [
+        {
+          "id": "assign-a-default",
+          "title": "Assign a default",
+          "level": 2
+        },
+        {
+          "id": "if-a-theme-type-or-definition-is-missing",
+          "title": "If a theme, type, or definition is missing",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Schema",
+        "Schema → Page types"
+      ],
+      "menuIds": [
+        "schema",
+        "schema.pageTypes"
+      ]
+    },
+    {
+      "id": "design-theme-code-editor",
+      "locale": "en",
+      "section": "design",
+      "title": "Theme code editor",
+      "description": "Open Themes → Code editor, or open a thumbnail in Themes → Themes to load a specific theme into the workspace. The editor contains a file tree and tabs for open source files.",
+      "path": "articles/en/design-theme-code-editor.md",
+      "keywords": [
+        "Code editor",
+        "design theme code editor"
+      ],
+      "headings": [
+        {
+          "id": "open-edit-and-save-a-file",
+          "title": "Open, edit, and save a file",
+          "level": 2
+        },
+        {
+          "id": "file-tree-actions",
+          "title": "File tree actions",
+          "level": 2
+        },
+        {
+          "id": "preview-and-apply",
+          "title": "Preview and apply",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Themes → Code editor"
+      ],
+      "menuIds": [
+        "themes.editor"
+      ]
+    },
+    {
+      "id": "design-theme-figma",
+      "locale": "en",
+      "section": "design",
+      "title": "Build theme components from Figma",
+      "description": "Open Themes → Code editor → Connect Figma if your role includes Themes → Code editor → Figma. This tool uses a selected Figma layer and AI model to generate workspace component files.",
+      "path": "articles/en/design-theme-figma.md",
+      "keywords": [
+        "Figma",
+        "design theme figma"
+      ],
+      "headings": [
+        {
+          "id": "check-the-connection",
+          "title": "Check the connection",
+          "level": 2
+        },
+        {
+          "id": "choose-a-file-and-a-layer",
+          "title": "Choose a file and a layer",
+          "level": 2
+        },
+        {
+          "id": "build-and-review-the-output",
+          "title": "Build and review the output",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Themes → Code editor → Figma"
+      ],
+      "menuIds": [
+        "themes.editor.figma"
+      ]
+    },
+    {
+      "id": "design-theme-gallery",
+      "locale": "en",
+      "section": "design",
+      "title": "Browse, create, and import themes",
+      "description": "Open Themes → Themes to browse registered themes, import a packaged theme, or create a new workspace. A theme provides page templates, components, assets, languages, and optional variables used to generate public pages.",
+      "path": "articles/en/design-theme-gallery.md",
+      "keywords": [
+        "Themes",
+        "design theme gallery"
+      ],
+      "headings": [
+        {
+          "id": "browse-the-gallery",
+          "title": "Browse the gallery",
+          "level": 2
+        },
+        {
+          "id": "create-an-empty-theme",
+          "title": "Create an empty theme",
+          "level": 2
+        },
+        {
+          "id": "import-a-packaged-theme",
+          "title": "Import a packaged theme",
+          "level": 2
+        },
+        {
+          "id": "what-a-packaged-theme-contains",
+          "title": "What a packaged theme contains",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Themes",
+        "Themes → Themes"
+      ],
+      "menuIds": [
+        "themes",
+        "themes.themes"
+      ]
+    },
+    {
+      "id": "design-theme-git",
+      "locale": "en",
+      "section": "design",
+      "title": "Connect and deploy a theme from Git",
+      "description": "Open Themes → Git repository with the built-in CMS administrator account to connect a theme's repository and branch. The integration reads a branch archive through its provider API and deploys it through BidoCMS theme import.",
+      "path": "articles/en/design-theme-git.md",
+      "keywords": [
+        "Git repository",
+        "design theme git"
+      ],
+      "headings": [
+        {
+          "id": "connect-the-repository",
+          "title": "Connect the repository",
+          "level": 2
+        },
+        {
+          "id": "use-the-connected-repository-controls",
+          "title": "Use the connected repository controls",
+          "level": 2
+        },
+        {
+          "id": "diagnose-a-deployment-or-webhook",
+          "title": "Diagnose a deployment or webhook",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Themes → Git repository"
+      ],
+      "menuIds": [
+        "themes.git"
+      ]
+    },
+    {
+      "id": "design-theme-history",
+      "locale": "en",
+      "section": "design",
+      "title": "Theme activity history",
+      "description": "Open Themes → History to see recorded theme operations. The table can show ZIP uploads, Git imports, themes created in the panel, workspace operations, and republishes.",
+      "path": "articles/en/design-theme-history.md",
+      "keywords": [
+        "History",
+        "design theme history"
+      ],
+      "headings": [
+        {
+          "id": "follow-up-on-a-failed-or-interrupted-import",
+          "title": "Follow up on a failed or interrupted import",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Themes → History"
+      ],
+      "menuIds": [
+        "themes.history"
+      ]
+    },
+    {
+      "id": "ai-agent-install",
+      "locale": "en",
+      "section": "ai",
+      "title": "Upload and manage agent packages",
+      "description": "Open AI & Agent → Upload agent to install an agent package and control its workspace. In this release, agent management and execution require an eligible CMS administrator with the Agents grant.",
+      "path": "articles/en/ai-agent-install.md",
+      "keywords": [
+        "Agents",
+        "ai agent install"
+      ],
+      "headings": [
+        {
+          "id": "upload-an-agent",
+          "title": "Upload an agent",
+          "level": 2
+        },
+        {
+          "id": "change-an-existing-installation",
+          "title": "Change an existing installation",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Agents"
+      ],
+      "menuIds": [
+        "agents"
+      ]
+    },
+    {
+      "id": "ai-agent-package",
+      "locale": "en",
+      "section": "ai",
+      "title": "Agent package format and runtime requirements",
+      "description": "An agent package is a ZIP for AI & Agent → Upload agent. Its root contains agent.json and the JavaScript ES modules named by the manifest. An agent executes a bounded function with validated input and host-granted tools.",
+      "path": "articles/en/ai-agent-package.md",
+      "keywords": [
+        "Agents",
+        "ai agent package"
+      ],
+      "headings": [
+        {
+          "id": "zip-and-manifest",
+          "title": "ZIP and manifest",
+          "level": 2
+        },
+        {
+          "id": "inputs-capabilities-and-prerequisites",
+          "title": "Inputs, capabilities and prerequisites",
+          "level": 2
+        },
+        {
+          "id": "limits",
+          "title": "Limits",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Agents"
+      ],
+      "menuIds": [
+        "agents"
+      ]
+    },
+    {
+      "id": "ai-agent-run",
+      "locale": "en",
+      "section": "ai",
+      "title": "Run an agent, schedule executions and export results",
+      "description": "Open the named workspace tab for the enabled agent in AI & Agent. Each installed package defines which functions, input fields and execution requirements appear in that workspace.",
+      "path": "articles/en/ai-agent-run.md",
+      "keywords": [
+        "Agents",
+        "ai agent run"
+      ],
+      "headings": [
+        {
+          "id": "run-the-selected-function",
+          "title": "Run the selected function",
+          "level": 2
+        },
+        {
+          "id": "run-on-a-schedule",
+          "title": "Run on a schedule",
+          "level": 2
+        },
+        {
+          "id": "read-and-retain-results",
+          "title": "Read and retain results",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Agents"
+      ],
+      "menuIds": [
+        "agents"
+      ]
+    },
+    {
+      "id": "ai-image-workflows",
+      "locale": "en",
+      "section": "ai",
+      "title": "Generate, edit and describe images with AI",
+      "description": "Image AI tools use credentials from AI & Agent → AI settings and save their results in the Images workspace. Each action displays only supported key and model combinations.",
+      "path": "articles/en/ai-image-workflows.md",
+      "keywords": [
+        "AI",
+        "ai image workflows"
+      ],
+      "headings": [
+        {
+          "id": "generate-a-new-image",
+          "title": "Generate a new image",
+          "level": 2
+        },
+        {
+          "id": "edit-an-existing-image",
+          "title": "Edit an existing image",
+          "level": 2
+        },
+        {
+          "id": "generate-alternative-text-title-and-caption",
+          "title": "Generate alternative text, title and caption",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "AI"
+      ],
+      "menuIds": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-provider-keys",
+      "locale": "en",
+      "section": "ai",
+      "title": "Configure AI provider keys",
+      "description": "Open AI & Agent → AI settings to turn AI features on and manage named provider API keys. In an AI tool, pick the saved key and a compatible model for the requested action.",
+      "path": "articles/en/ai-provider-keys.md",
+      "keywords": [
+        "AI",
+        "ai provider keys"
+      ],
+      "headings": [
+        {
+          "id": "enable-ai-and-add-a-key",
+          "title": "Enable AI and add a key",
+          "level": 2
+        },
+        {
+          "id": "edit-rotate-or-remove-a-saved-key",
+          "title": "Edit, rotate or remove a saved key",
+          "level": 2
+        },
+        {
+          "id": "if-a-tool-has-no-model-choices",
+          "title": "If a tool has no model choices",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "AI"
+      ],
+      "menuIds": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ai-rich-text-editor",
+      "locale": "en",
+      "section": "ai",
+      "title": "Use AI in the rich-text editor",
+      "description": "Where the BidoCMS rich-text editor displays its AI action, it can answer a question about the current document or edit its content. The action uses saved AI credentials and an available text model.",
+      "path": "articles/en/ai-rich-text-editor.md",
+      "keywords": [
+        "AI",
+        "ai rich text editor"
+      ],
+      "headings": [
+        {
+          "id": "work-with-a-passage-or-the-full-document",
+          "title": "Work with a passage or the full document",
+          "level": 2
+        },
+        {
+          "id": "revert-or-retry-an-edit",
+          "title": "Revert or retry an edit",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "AI"
+      ],
+      "menuIds": [
+        "ai"
+      ]
+    },
+    {
+      "id": "analytics-compare-google-reports",
+      "locale": "en",
+      "section": "analytics",
+      "title": "Compare Search Console, Google Analytics and URL Inspection",
+      "description": "BidoCMS has several Google reporting views. Choose one by the question you want to answer. The reports use different event definitions, dates and scopes, so matching totals should not be expected.",
+      "path": "articles/en/analytics-compare-google-reports.md",
+      "keywords": [
+        "Analytics",
+        "analytics compare google reports"
+      ],
+      "headings": [
+        {
+          "id": "compare-dates-and-filters",
+          "title": "Compare dates and filters",
+          "level": 2
+        },
+        {
+          "id": "investigate-a-missing-report",
+          "title": "Investigate a missing report",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Analytics"
+      ],
+      "menuIds": [
+        "nodes.analytics"
+      ]
+    },
+    {
+      "id": "analytics-page-google-analytics",
+      "locale": "en",
+      "section": "analytics",
+      "title": "Read a page's Google Analytics report",
+      "description": "Open Pages → selected page → selected language → Analytics, then choose Analytics in the report selector. The Google Analytics report shows historical GA4 activity for this page's public URL and matching streams. Use it to compare traffic, engagement and events over time.",
+      "path": "articles/en/analytics-page-google-analytics.md",
+      "keywords": [
+        "Analytics",
+        "analytics page google analytics"
+      ],
+      "headings": [
+        {
+          "id": "read-the-page-overview",
+          "title": "Read the page overview",
+          "level": 2
+        },
+        {
+          "id": "break-down-and-export-results",
+          "title": "Break down and export results",
+          "level": 2
+        },
+        {
+          "id": "interpret-missing-data",
+          "title": "Interpret missing data",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Analytics"
+      ],
+      "menuIds": [
+        "nodes.analytics"
+      ]
+    },
+    {
+      "id": "analytics-page-search-console",
+      "locale": "en",
+      "section": "analytics",
+      "title": "Read page performance and Discover data",
+      "description": "Open Pages, select a page and its content language, then choose Analytics. In the report selector choose Performance for Google Search traffic or Discover for Google Discover. The corresponding views require an active Search Console connection and access to the selected page.",
+      "path": "articles/en/analytics-page-search-console.md",
+      "keywords": [
+        "Analytics",
+        "analytics page search console"
+      ],
+      "headings": [
+        {
+          "id": "select-a-period-and-search-type",
+          "title": "Select a period and search type",
+          "level": 2
+        },
+        {
+          "id": "read-details-and-drill-down",
+          "title": "Read details and drill down",
+          "level": 2
+        },
+        {
+          "id": "match-the-data-to-the-right-url",
+          "title": "Match the data to the right URL",
+          "level": 2
+        },
+        {
+          "id": "understand-gaps-and-empty-reports",
+          "title": "Understand gaps and empty reports",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Analytics"
+      ],
+      "menuIds": [
+        "nodes.analytics"
+      ]
+    },
+    {
+      "id": "analytics-search-console-archive",
+      "locale": "en",
+      "section": "analytics",
+      "title": "Read Search Console archive coverage and daily collection status",
+      "description": "The Performance and Discover reports under Pages → Analytics use an archive collected by the central Search Console service. Opening either report reads available records. Collection continues in the background for published language URLs.",
+      "path": "articles/en/analytics-search-console-archive.md",
+      "keywords": [
+        "Analytics",
+        "analytics search console archive"
+      ],
+      "headings": [
+        {
+          "id": "recognize-coverage-states",
+          "title": "Recognize coverage states",
+          "level": 2
+        },
+        {
+          "id": "check-a-newly-connected-or-newly-published-page",
+          "title": "Check a newly connected or newly published page",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Analytics"
+      ],
+      "menuIds": [
+        "nodes.analytics"
+      ]
+    },
+    {
+      "id": "integrations-cms-oauth",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect Bido SEO and trusted applications through CMS OAuth",
+      "description": "Open Settings → OAuth as a CMS administrator to control which trusted applications can use delegated read access. This workflow lets an eligible CMS user grant an application, such as Bido SEO, access to the approved site and page read scopes.",
+      "path": "articles/en/integrations-cms-oauth.md",
+      "keywords": [
+        "OAuth",
+        "integrations cms oauth"
+      ],
+      "headings": [
+        {
+          "id": "register-and-authorize-bido-seo",
+          "title": "Register and authorize Bido SEO",
+          "level": 2
+        },
+        {
+          "id": "review-access-policy-and-applications",
+          "title": "Review access policy and applications",
+          "level": 2
+        },
+        {
+          "id": "resolve-authorization-errors",
+          "title": "Resolve authorization errors",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings → OAuth"
+      ],
+      "menuIds": [
+        "settings.oauth"
+      ]
+    },
+    {
+      "id": "integrations-facebook",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect a Facebook Page and manage posts or messages",
+      "description": "Open Social → Facebook to manage Facebook Pages available to the website. Posts, Inbox and Profile are scoped to the selected Page.",
+      "path": "articles/en/integrations-facebook.md",
+      "keywords": [
+        "Facebook",
+        "Posts",
+        "Inbox",
+        "Profile",
+        "integrations facebook"
+      ],
+      "headings": [
+        {
+          "id": "connect-and-verify-your-page",
+          "title": "Connect and verify your Page",
+          "level": 2
+        },
+        {
+          "id": "publish-and-manage-posts",
+          "title": "Publish and manage posts",
+          "level": 2
+        },
+        {
+          "id": "read-and-respond-to-page-messages",
+          "title": "Read and respond to Page messages",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Facebook",
+        "Social → Facebook → Posts",
+        "Social → Facebook → Inbox",
+        "Social → Facebook → Profile"
+      ],
+      "menuIds": [
+        "social.facebook",
+        "social.facebook.posts",
+        "social.facebook.inbox",
+        "social.facebook.profile"
+      ]
+    },
+    {
+      "id": "integrations-google-analytics",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect Google Analytics 4",
+      "description": "Open Settings → Analytics to connect BidoCMS to an existing Google Analytics 4 property. The integration reads GA4 data for page reports and the Google Analytics live card in Notifications. Installing the website's tracking tag and collecting new GA4 events are separate steps.",
+      "path": "articles/en/integrations-google-analytics.md",
+      "keywords": [
+        "Google Analytics",
+        "integrations google analytics"
+      ],
+      "headings": [
+        {
+          "id": "before-you-connect",
+          "title": "Before you connect",
+          "level": 2
+        },
+        {
+          "id": "connect-change-property-or-check-access",
+          "title": "Connect, change property or check access",
+          "level": 2
+        },
+        {
+          "id": "realtime-and-historical-data",
+          "title": "Realtime and historical data",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot-the-connection",
+          "title": "Troubleshoot the connection",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings → Google Analytics"
+      ],
+      "menuIds": [
+        "settings.googleAnalytics"
+      ]
+    },
+    {
+      "id": "integrations-google-business",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect Google Business and select locations",
+      "description": "Open Social → Google Business to manage Google Business Profile locations the connected Google account owns or manages.",
+      "path": "articles/en/integrations-google-business.md",
+      "keywords": [
+        "Google Business",
+        "integrations google business"
+      ],
+      "headings": [
+        {
+          "id": "connect-choose-a-business-and-select-the-branch",
+          "title": "Connect, choose a business and select the branch",
+          "level": 2
+        },
+        {
+          "id": "connection-recovery",
+          "title": "Connection recovery",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Google Business"
+      ],
+      "menuIds": [
+        "social.googleBusiness"
+      ]
+    },
+    {
+      "id": "integrations-google-business-content",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Reply to Google reviews and publish business updates",
+      "description": "Use Social → Google Business and select the intended branch before working in Reviews or Posts. Google can require a verified profile and sufficient account permissions.",
+      "path": "articles/en/integrations-google-business-content.md",
+      "keywords": [
+        "Reviews",
+        "Posts",
+        "integrations google business content"
+      ],
+      "headings": [
+        {
+          "id": "read-reviews-and-respond",
+          "title": "Read reviews and respond",
+          "level": 2
+        },
+        {
+          "id": "create-a-post-or-share-a-published-page",
+          "title": "Create a post or share a published page",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Google Business → Reviews",
+        "Social → Google Business → Posts"
+      ],
+      "menuIds": [
+        "social.googleBusiness.reviews",
+        "social.googleBusiness.posts"
+      ]
+    },
+    {
+      "id": "integrations-google-business-marketing",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Manage Google Business photos, action links and performance",
+      "description": "Open a branch in Social → Google Business. Photos, Bookings & links, Performance and Google tools cover the branch's public media, actions and selected statistics.",
+      "path": "articles/en/integrations-google-business-marketing.md",
+      "keywords": [
+        "Photos",
+        "Bookings & links",
+        "Performance",
+        "Google tools",
+        "integrations google business marketing"
+      ],
+      "headings": [
+        {
+          "id": "photos",
+          "title": "Photos",
+          "level": 2
+        },
+        {
+          "id": "bookings-and-action-links",
+          "title": "Bookings and action links",
+          "level": 2
+        },
+        {
+          "id": "performance-and-google-tools",
+          "title": "Performance and Google tools",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Google Business → Photos",
+        "Social → Google Business → Bookings & links",
+        "Social → Google Business → Performance",
+        "Social → Google Business → Google tools"
+      ],
+      "menuIds": [
+        "social.googleBusiness.photos",
+        "social.googleBusiness.links",
+        "social.googleBusiness.performance",
+        "social.googleBusiness.tools"
+      ]
+    },
+    {
+      "id": "integrations-google-business-profile",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Edit Google Business profile, hours, attributes and services",
+      "description": "Go to Social → Google Business and select the correct branch. The sections save changes to that Google location. Available fields depend on the location type and returned provider data.",
+      "path": "articles/en/integrations-google-business-profile.md",
+      "keywords": [
+        "Profile",
+        "Hours",
+        "Attributes",
+        "Services",
+        "integrations google business profile"
+      ],
+      "headings": [
+        {
+          "id": "profile",
+          "title": "Profile",
+          "level": 2
+        },
+        {
+          "id": "hours",
+          "title": "Hours",
+          "level": 2
+        },
+        {
+          "id": "attributes-and-services",
+          "title": "Attributes and services",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Google Business → Profile",
+        "Social → Google Business → Hours",
+        "Social → Google Business → Attributes",
+        "Social → Google Business → Services"
+      ],
+      "menuIds": [
+        "social.googleBusiness.profile",
+        "social.googleBusiness.hours",
+        "social.googleBusiness.attributes",
+        "social.googleBusiness.services"
+      ]
+    },
+    {
+      "id": "integrations-instagram",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect Instagram and manage account sections",
+      "description": "Open Social → Instagram to connect a supported account through Meta. Each connected account has its own media, inbox and settings. Select its account tab before working.",
+      "path": "articles/en/integrations-instagram.md",
+      "keywords": [
+        "Instagram",
+        "Reels",
+        "Stories",
+        "Insights",
+        "Profile",
+        "integrations instagram"
+      ],
+      "headings": [
+        {
+          "id": "connect-or-renew-an-account",
+          "title": "Connect or renew an account",
+          "level": 2
+        },
+        {
+          "id": "find-media-stories-and-insights",
+          "title": "Find media, stories and insights",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Instagram",
+        "Social → Instagram → Reels",
+        "Social → Instagram → Stories",
+        "Social → Instagram → Insights",
+        "Social → Instagram → Profile"
+      ],
+      "menuIds": [
+        "social.instagram",
+        "social.instagram.reels",
+        "social.instagram.stories",
+        "social.instagram.insights",
+        "social.instagram.profile"
+      ]
+    },
+    {
+      "id": "integrations-instagram-community",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Manage Instagram comments and conversations",
+      "description": "Use the selected account's Posts, Reels or Inbox section in Social → Instagram. Reading comments or conversations and performing actions can require different Meta capabilities.",
+      "path": "articles/en/integrations-instagram-community.md",
+      "keywords": [
+        "Posts",
+        "Inbox",
+        "integrations instagram community"
+      ],
+      "headings": [
+        {
+          "id": "review-or-moderate-media-comments",
+          "title": "Review or moderate media comments",
+          "level": 2
+        },
+        {
+          "id": "read-and-reply-from-inbox",
+          "title": "Read and reply from Inbox",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Instagram → Posts",
+        "Social → Instagram → Inbox"
+      ],
+      "menuIds": [
+        "social.instagram.posts",
+        "social.instagram.inbox"
+      ]
+    },
+    {
+      "id": "integrations-instagram-publishing",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Draft, publish and schedule Instagram posts",
+      "description": "Open Social → Instagram and select the intended account. Under Posts, choose Create post. This action is available to users and accounts with publishing access.",
+      "path": "articles/en/integrations-instagram-publishing.md",
+      "keywords": [
+        "Posts",
+        "Reels",
+        "Stories",
+        "integrations instagram publishing"
+      ],
+      "headings": [
+        {
+          "id": "prepare-a-publication",
+          "title": "Prepare a publication",
+          "level": 2
+        },
+        {
+          "id": "format-checks-and-troubleshooting",
+          "title": "Format checks and troubleshooting",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → Instagram → Posts",
+        "Social → Instagram → Reels",
+        "Social → Instagram → Stories"
+      ],
+      "menuIds": [
+        "social.instagram.posts",
+        "social.instagram.reels",
+        "social.instagram.stories"
+      ]
+    },
+    {
+      "id": "integrations-linkedin",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect a LinkedIn profile or company Page",
+      "description": "Open Social → LinkedIn. The managed workspace opens an account's Posts and Profile together. Installations connected to a separate LinkedIn service can show additional workspace tabs.",
+      "path": "articles/en/integrations-linkedin.md",
+      "keywords": [
+        "LinkedIn",
+        "Profile",
+        "Posts",
+        "integrations linkedin"
+      ],
+      "headings": [
+        {
+          "id": "connect-and-select-a-profile",
+          "title": "Connect and select a profile",
+          "level": 2
+        },
+        {
+          "id": "use-posts-and-profile-in-the-managed-workspace",
+          "title": "Use Posts and Profile in the managed workspace",
+          "level": 2
+        },
+        {
+          "id": "if-a-feature-is-unavailable",
+          "title": "If a feature is unavailable",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → LinkedIn",
+        "Social → LinkedIn → Profile",
+        "Social → LinkedIn → Posts"
+      ],
+      "menuIds": [
+        "social.linkedin",
+        "social.linkedin.profile",
+        "social.linkedin.posts"
+      ]
+    },
+    {
+      "id": "integrations-linkedin-service",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Use LinkedIn service settings, publishing, media and activity",
+      "description": "Some installations expose the standalone LinkedIn service workspace under Social → LinkedIn. The visible tabs depend on CMS access and the service integration.",
+      "path": "articles/en/integrations-linkedin-service.md",
+      "keywords": [
+        "LinkedIn",
+        "Overview",
+        "Posts",
+        "Media",
+        "Activity",
+        "integrations linkedin service"
+      ],
+      "headings": [
+        {
+          "id": "check-the-service-settings",
+          "title": "Check the service settings",
+          "level": 2
+        },
+        {
+          "id": "queue-a-publication",
+          "title": "Queue a publication",
+          "level": 2
+        },
+        {
+          "id": "work-with-media-content-and-activity",
+          "title": "Work with media, content and activity",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → LinkedIn",
+        "Social → LinkedIn → Overview",
+        "Social → LinkedIn → Posts",
+        "Social → LinkedIn → Media",
+        "Social → LinkedIn → Activity"
+      ],
+      "menuIds": [
+        "social.linkedin",
+        "social.linkedin.overview",
+        "social.linkedin.posts",
+        "social.linkedin.media",
+        "social.linkedin.activity"
+      ]
+    },
+    {
+      "id": "integrations-search-console",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect Google Search Console",
+      "description": "Open Settings → Search Console to connect the public website to a Google Search Console property. This connection enables Search Console performance and Discover reports, along with Google URL Inspection in page workspaces.",
+      "path": "articles/en/integrations-search-console.md",
+      "keywords": [
+        "Search Console",
+        "integrations search console"
+      ],
+      "headings": [
+        {
+          "id": "before-you-connect",
+          "title": "Before you connect",
+          "level": 2
+        },
+        {
+          "id": "connect-and-verify-access",
+          "title": "Connect and verify access",
+          "level": 2
+        },
+        {
+          "id": "reconnect-or-disconnect",
+          "title": "Reconnect or disconnect",
+          "level": 2
+        },
+        {
+          "id": "if-you-cannot-connect",
+          "title": "If you cannot connect",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings → Search Console"
+      ],
+      "menuIds": [
+        "settings.searchConsole"
+      ]
+    },
+    {
+      "id": "integrations-social-overview",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Find and open a Social workspace",
+      "description": "Open Social to manage the connected profiles and business locations supported by your installation. Work takes place inside the selected provider, and where multiple profiles or branches exist, inside the selected identity.",
+      "path": "articles/en/integrations-social-overview.md",
+      "keywords": [
+        "Social",
+        "Telegram",
+        "Overview",
+        "Bots",
+        "Destinations",
+        "Publish",
+        "Inbox",
+        "Events",
+        "WhatsApp",
+        "integrations social overview"
+      ],
+      "headings": [
+        {
+          "id": "choose-a-provider",
+          "title": "Choose a provider",
+          "level": 2
+        },
+        {
+          "id": "check-identity-permission-and-connection-status",
+          "title": "Check identity, permission and connection status",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social",
+        "Social → Telegram",
+        "Social → Telegram → Overview",
+        "Social → Telegram → Bots",
+        "Social → Telegram → Destinations",
+        "Social → Telegram → Publish",
+        "Social → Telegram → Inbox",
+        "Social → Telegram → Events",
+        "Social → WhatsApp"
+      ],
+      "menuIds": [
+        "social",
+        "social.telegram",
+        "social.telegram.overview",
+        "social.telegram.bots",
+        "social.telegram.destinations",
+        "social.telegram.publish",
+        "social.telegram.inbox",
+        "social.telegram.events",
+        "social.whatsapp"
+      ]
+    },
+    {
+      "id": "integrations-x",
+      "locale": "en",
+      "section": "integrations",
+      "title": "Connect an X account and manage posts or conversations",
+      "description": "Open Social → X (Twitter) to work with the selected connected X identity. The panel offers Posts, Inbox and Profile when role and provider permissions allow.",
+      "path": "articles/en/integrations-x.md",
+      "keywords": [
+        "X",
+        "Posts",
+        "Inbox",
+        "Profile",
+        "integrations x"
+      ],
+      "headings": [
+        {
+          "id": "connect-or-refresh-an-x-account",
+          "title": "Connect or refresh an X account",
+          "level": 2
+        },
+        {
+          "id": "publish-and-manage-posts",
+          "title": "Publish and manage posts",
+          "level": 2
+        },
+        {
+          "id": "check-the-inbox",
+          "title": "Check the inbox",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Social → X",
+        "Social → X → Posts",
+        "Social → X → Inbox",
+        "Social → X → Profile"
+      ],
+      "menuIds": [
+        "social.x",
+        "social.x.posts",
+        "social.x.inbox",
+        "social.x.profile"
+      ]
+    },
+    {
+      "id": "settings-email-notifications",
+      "locale": "en",
+      "section": "settings",
+      "title": "Configure email notifications and account email",
+      "description": "Open Settings → General and locate Notification Enable and Method. This configuration supplies the installation's outgoing mail transport. Account recovery and email delivery of temporary passwords depend on a configured mail transport. Monitor alert rules use their own recipient lists.",
+      "path": "articles/en/settings-email-notifications.md",
+      "keywords": [
+        "General",
+        "settings email notifications"
+      ],
+      "headings": [
+        {
+          "id": "choose-a-method",
+          "title": "Choose a method",
+          "level": 2
+        },
+        {
+          "id": "save-and-check-delivery",
+          "title": "Save and check delivery",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings → General"
+      ],
+      "menuIds": [
+        "settings.general"
+      ]
+    },
+    {
+      "id": "settings-general",
+      "locale": "en",
+      "section": "settings",
+      "title": "Change the general panel settings",
+      "description": "Open Settings → General to set the administration interface language and direction, editor defaults, CMS path, and email delivery. These settings apply at the installation level.",
+      "path": "articles/en/settings-general.md",
+      "keywords": [
+        "Settings",
+        "General",
+        "settings general"
+      ],
+      "headings": [
+        {
+          "id": "language-and-direction",
+          "title": "Language and direction",
+          "level": 2
+        },
+        {
+          "id": "cms-address",
+          "title": "CMS Address",
+          "level": 2
+        },
+        {
+          "id": "editor-css",
+          "title": "editor CSS",
+          "level": 2
+        },
+        {
+          "id": "view-the-other-settings-tabs",
+          "title": "View the other Settings tabs",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings",
+        "Settings → General"
+      ],
+      "menuIds": [
+        "settings",
+        "settings.general"
+      ]
+    },
+    {
+      "id": "settings-maintenance",
+      "locale": "en",
+      "section": "settings",
+      "title": "Restart the application or reset an installation",
+      "description": "Open Settings → Maintenance to find Server controls and Factory reset (day-1 state). These server actions require the built-in administrator. A restart briefly interrupts the application. A factory reset clears installation data and generated files.",
+      "path": "articles/en/settings-maintenance.md",
+      "keywords": [
+        "Maintenance",
+        "settings maintenance"
+      ],
+      "headings": [
+        {
+          "id": "restart-application",
+          "title": "Restart application",
+          "level": 2
+        },
+        {
+          "id": "factory-reset-day-1-state",
+          "title": "Factory reset (day-1 state)",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Settings → Maintenance"
+      ],
+      "menuIds": [
+        "settings.maintenance"
+      ]
+    },
+    {
+      "id": "users-account-management",
+      "locale": "en",
+      "section": "users",
+      "title": "Add, edit, activate, and deactivate user accounts",
+      "description": "Open Users → Users to manage accounts for the current installation. Use Search name or email to locate a record. The account table shows the role and whether the account is active or still needs a password change.",
+      "path": "articles/en/users-account-management.md",
+      "keywords": [
+        "Users",
+        "users account management"
+      ],
+      "headings": [
+        {
+          "id": "add-a-user",
+          "title": "Add a user",
+          "level": 2
+        },
+        {
+          "id": "edit-account-details-and-role",
+          "title": "Edit account details and role",
+          "level": 2
+        },
+        {
+          "id": "activate-or-deactivate-an-account",
+          "title": "Activate or deactivate an account",
+          "level": 2
+        },
+        {
+          "id": "reset-a-users-password",
+          "title": "Reset a user's password",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Users",
+        "Users → Users"
+      ],
+      "menuIds": [
+        "users",
+        "users.accounts"
+      ]
+    },
+    {
+      "id": "users-role-permissions",
+      "locale": "en",
+      "section": "users",
+      "title": "Create roles and assign menu permissions",
+      "description": "Open Users → Roles to review role names and manage access to the sidebar menus and nested tabs. Users get the menu permissions of their assigned role.",
+      "path": "articles/en/users-role-permissions.md",
+      "keywords": [
+        "Users",
+        "Roles",
+        "users role permissions"
+      ],
+      "headings": [
+        {
+          "id": "create-a-role",
+          "title": "Create a role",
+          "level": 2
+        },
+        {
+          "id": "edit-a-role",
+          "title": "Edit a role",
+          "level": 2
+        },
+        {
+          "id": "understand-what-a-grant-applies-to",
+          "title": "Understand what a grant applies to",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot-missing-access",
+          "title": "Troubleshoot missing access",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Users",
+        "Users → Roles"
+      ],
+      "menuIds": [
+        "users",
+        "users.roles"
+      ]
+    },
+    {
+      "id": "operations-backup-restore",
+      "locale": "en",
+      "section": "operations",
+      "title": "Download, restore, or delete a backup",
+      "description": "Backup → Backup Files lists the archives the installation has recorded, newest first. Restoring replaces installation data and typically restarts the application.",
+      "path": "articles/en/operations-backup-restore.md",
+      "keywords": [
+        "Backup",
+        "Settings",
+        "Backup files",
+        "operations backup restore"
+      ],
+      "headings": [
+        {
+          "id": "review-and-download-a-saved-backup",
+          "title": "Review and download a saved backup",
+          "level": 2
+        },
+        {
+          "id": "restore-from-a-saved-record",
+          "title": "Restore from a saved record",
+          "level": 2
+        },
+        {
+          "id": "restore-from-a-local-zip",
+          "title": "Restore from a local ZIP",
+          "level": 2
+        },
+        {
+          "id": "delete-a-backup-record-and-its-archives",
+          "title": "Delete a backup record and its archives",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Backup",
+        "Backup → Settings",
+        "Backup → Backup files"
+      ],
+      "menuIds": [
+        "backup",
+        "backup.settings",
+        "backup.files"
+      ]
+    },
+    {
+      "id": "operations-backup-settings",
+      "locale": "en",
+      "section": "operations",
+      "title": "Configure automatic and manual backups",
+      "description": "Backup → Settings lets you create separate configurations for database backups, file backups, or both. A configuration also controls the storage destination and automatic schedule. Backup actions require the built-in administrator.",
+      "path": "articles/en/operations-backup-settings.md",
+      "keywords": [
+        "Backup",
+        "Settings",
+        "operations backup settings"
+      ],
+      "headings": [
+        {
+          "id": "create-a-configuration",
+          "title": "Create a configuration",
+          "level": 2
+        },
+        {
+          "id": "choose-storage",
+          "title": "Choose storage",
+          "level": 2
+        },
+        {
+          "id": "choose-what-to-include",
+          "title": "Choose what to include",
+          "level": 2
+        },
+        {
+          "id": "test-and-maintain-the-configuration",
+          "title": "Test and maintain the configuration",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Backup",
+        "Backup → Settings"
+      ],
+      "menuIds": [
+        "backup",
+        "backup.settings"
+      ]
+    },
+    {
+      "id": "operations-console",
+      "locale": "en",
+      "section": "operations",
+      "title": "Read and download server console logs",
+      "description": "Open Console to see the application's captured server console. The built-in administrator can read, download, and clear the buffer. The workspace shows up to 500 recent lines with line numbers, refreshes every 15 seconds, and scrolls to the newest output after refresh.",
+      "path": "articles/en/operations-console.md",
+      "keywords": [
+        "Console",
+        "operations console"
+      ],
+      "headings": [
+        {
+          "id": "read-the-logs",
+          "title": "Read the logs",
+          "level": 2
+        },
+        {
+          "id": "clear-the-captured-buffer",
+          "title": "Clear the captured buffer",
+          "level": 2
+        },
+        {
+          "id": "if-the-console-is-empty",
+          "title": "If the console is empty",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Console"
+      ],
+      "menuIds": [
+        "console"
+      ]
+    },
+    {
+      "id": "operations-environment",
+      "locale": "en",
+      "section": "operations",
+      "title": "Manage application environment variables",
+      "description": "Open Environment to inspect and change the installation's application variables as a built-in administrator. Changes apply to the application process and can affect service connectors, theme behavior, or runtime settings.",
+      "path": "articles/en/operations-environment.md",
+      "keywords": [
+        "Environment",
+        "operations environment"
+      ],
+      "headings": [
+        {
+          "id": "add-or-change-a-variable",
+          "title": "Add or change a variable",
+          "level": 2
+        },
+        {
+          "id": "if-a-variable-or-restart-is-missing",
+          "title": "If a variable or restart is missing",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Environment"
+      ],
+      "menuIds": [
+        "environment"
+      ]
+    },
+    {
+      "id": "operations-export-wordpress",
+      "locale": "en",
+      "section": "operations",
+      "title": "Export a BidoCMS website to WordPress",
+      "description": "Open Export to create a WordPress migration package for the current site. This feature is available to the built-in administrator and currently requires a single-site BidoCMS installation. It checks the installed theme and capabilities before building the package.",
+      "path": "articles/en/operations-export-wordpress.md",
+      "keywords": [
+        "Export",
+        "operations export wordpress"
+      ],
+      "headings": [
+        {
+          "id": "create-and-download-a-package",
+          "title": "Create and download a package",
+          "level": 2
+        },
+        {
+          "id": "read-the-package-contents",
+          "title": "Read the package contents",
+          "level": 2
+        },
+        {
+          "id": "restore-and-verify-on-wordpress",
+          "title": "Restore and verify on WordPress",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Export"
+      ],
+      "menuIds": [
+        "export"
+      ]
+    },
+    {
+      "id": "operations-files",
+      "locale": "en",
+      "section": "operations",
+      "title": "Browse and manage installation files",
+      "description": "Open Files to work with accessible files in the installation storage. This workspace is for administrators. Images is the separate workspace for the site's managed media records and image metadata.",
+      "path": "articles/en/operations-files.md",
+      "keywords": [
+        "Files",
+        "operations files"
+      ],
+      "headings": [
+        {
+          "id": "browse-and-select",
+          "title": "Browse and select",
+          "level": 2
+        },
+        {
+          "id": "toolbar-actions",
+          "title": "Toolbar actions",
+          "level": 2
+        },
+        {
+          "id": "if-a-file-cannot-be-changed",
+          "title": "If a file cannot be changed",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Files"
+      ],
+      "menuIds": [
+        "filemanager"
+      ]
+    },
+    {
+      "id": "operations-monitor",
+      "locale": "en",
+      "section": "operations",
+      "title": "Monitor server resources and configure alerts",
+      "description": "Open Monitor to check resource use for the BidoCMS process and its runtime, view history, and create email alerts for sustained resource conditions. The monitor API requires the built-in administrator.",
+      "path": "articles/en/operations-monitor.md",
+      "keywords": [
+        "Monitor",
+        "operations monitor"
+      ],
+      "headings": [
+        {
+          "id": "read-the-live-cards",
+          "title": "Read the live cards",
+          "level": 2
+        },
+        {
+          "id": "use-the-history-chart",
+          "title": "Use the history chart",
+          "level": 2
+        },
+        {
+          "id": "add-and-maintain-alert-rules",
+          "title": "Add and maintain alert rules",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Monitor"
+      ],
+      "menuIds": [
+        "monitor"
+      ]
+    },
+    {
+      "id": "operations-notes",
+      "locale": "en",
+      "section": "operations",
+      "title": "Open the Notes workspace",
+      "description": "Notes is a sidebar menu entry that opens an empty workspace in the current shared BidoCMS panel. It displays There is nothing to display yet. The current view provides no controls for creating, editing, saving, or sharing notes.",
+      "path": "articles/en/operations-notes.md",
+      "keywords": [
+        "Notes",
+        "operations notes"
+      ],
+      "headings": [
+        {
+          "id": "locate-the-menu",
+          "title": "Locate the menu",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Notes"
+      ],
+      "menuIds": [
+        "notes"
+      ]
+    },
+    {
+      "id": "operations-scripts",
+      "locale": "en",
+      "section": "operations",
+      "title": "Configure and run installed theme scripts",
+      "description": "Open Scripts to view background scripts supplied by the installed theme or installation. Script operations require the built-in administrator. Each script can have a different set of named inputs.",
+      "path": "articles/en/operations-scripts.md",
+      "keywords": [
+        "Scripts",
+        "operations scripts"
+      ],
+      "headings": [
+        {
+          "id": "configure-one-script",
+          "title": "Configure one script",
+          "level": 2
+        },
+        {
+          "id": "start-or-stop-all-scripts",
+          "title": "Start or stop all scripts",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot",
+          "title": "Troubleshoot",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Scripts"
+      ],
+      "menuIds": [
+        "scripts"
+      ]
+    },
+    {
+      "id": "operations-ssh-access",
+      "locale": "en",
+      "section": "operations",
+      "title": "Register an SSH key and connect to the site",
+      "description": "Open SSH access to register public keys, read the site's connection information, and follow connection instructions. Site administrators manage up to three named public keys for the installation.",
+      "path": "articles/en/operations-ssh-access.md",
+      "keywords": [
+        "SSH access",
+        "operations ssh access"
+      ],
+      "headings": [
+        {
+          "id": "register-a-key",
+          "title": "Register a key",
+          "level": 2
+        },
+        {
+          "id": "use-the-connection-details",
+          "title": "Use the connection details",
+          "level": 2
+        },
+        {
+          "id": "troubleshoot",
+          "title": "Troubleshoot",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "SSH access"
+      ],
+      "menuIds": [
+        "sshAccess"
+      ]
+    },
+    {
+      "id": "tools-mcp-built-in",
+      "locale": "en",
+      "section": "tools",
+      "title": "Reference for built-in BidoCMS MCP tools",
+      "description": "Open MCP Server → BidoCMS Tools to choose which built-in read tools an MCP client can use. The installed MCP documentation shows the current installation's exposed tools. Tool names are the identifiers clients call.",
+      "path": "articles/en/tools-mcp-built-in.md",
+      "keywords": [
+        "BidoCMS tools",
+        "tools mcp built in"
+      ],
+      "headings": [
+        {
+          "id": "choose-scope-and-verify-access",
+          "title": "Choose scope and verify access",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "MCP Server → BidoCMS tools"
+      ],
+      "menuIds": [
+        "mcp.defaultTools"
+      ]
+    },
+    {
+      "id": "tools-mcp-server",
+      "locale": "en",
+      "section": "tools",
+      "title": "Configure MCP Server and connect an AI client",
+      "description": "Open MCP Server → Settings to enable the installation's Model Context Protocol endpoint. MCP provides configured tools to external AI clients using Streamable HTTP.",
+      "path": "articles/en/tools-mcp-server.md",
+      "keywords": [
+        "MCP Server",
+        "Settings",
+        "tools mcp server"
+      ],
+      "headings": [
+        {
+          "id": "enable-and-find-the-endpoint",
+          "title": "Enable and find the endpoint",
+          "level": 2
+        },
+        {
+          "id": "understand-access-by-tool",
+          "title": "Understand access by tool",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "MCP Server",
+        "MCP Server → Settings"
+      ],
+      "menuIds": [
+        "mcp",
+        "mcp.settings"
+      ]
+    },
+    {
+      "id": "tools-mcp-tokens",
+      "locale": "en",
+      "section": "tools",
+      "title": "Create and manage MCP access tokens",
+      "description": "Open MCP Server → Access Tokens to grant an external MCP client access to specific enabled Bearer-protected tools.",
+      "path": "articles/en/tools-mcp-tokens.md",
+      "keywords": [
+        "Access tokens",
+        "tools mcp tokens"
+      ],
+      "headings": [
+        {
+          "id": "create-and-copy-a-token",
+          "title": "Create and copy a token",
+          "level": 2
+        },
+        {
+          "id": "review-edit-or-remove-access",
+          "title": "Review, edit or remove access",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "MCP Server → Access tokens"
+      ],
+      "menuIds": [
+        "mcp.tokens"
+      ]
+    },
+    {
+      "id": "tools-mcp-tools",
+      "locale": "en",
+      "section": "tools",
+      "title": "Manage built-in, panel, API and theme MCP tools",
+      "description": "BidoCMS groups MCP tools by the source of their definitions. Use the tab that owns the tool you want to inspect, test or make available.",
+      "path": "articles/en/tools-mcp-tools.md",
+      "keywords": [
+        "BidoCMS tools",
+        "Panel tools",
+        "API tools",
+        "Theme tools",
+        "tools mcp tools"
+      ],
+      "headings": [
+        {
+          "id": "create-a-panel-tool",
+          "title": "Create a Panel Tool",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "MCP Server → BidoCMS tools",
+        "MCP Server → Panel tools",
+        "MCP Server → API tools",
+        "MCP Server → Theme tools"
+      ],
+      "menuIds": [
+        "mcp.defaultTools",
+        "mcp.panelTools",
+        "mcp.apiTools",
+        "mcp.themeTools"
+      ]
+    },
+    {
+      "id": "tools-page-search-engines",
+      "locale": "en",
+      "section": "tools",
+      "title": "Inspect a page's Google indexing status",
+      "description": "Open Pages → selected page → selected language → Search Engines to read Google's stored URL Inspection result for that language's public URL. You need access to the page and Pages → Search Engines, along with an active Search Console connection.",
+      "path": "articles/en/tools-page-search-engines.md",
+      "keywords": [
+        "Search Engines",
+        "tools page search engines"
+      ],
+      "headings": [
+        {
+          "id": "check-the-url-and-google-observation",
+          "title": "Check the URL and Google observation",
+          "level": 2
+        },
+        {
+          "id": "interpret-the-sections",
+          "title": "Interpret the sections",
+          "level": 2
+        },
+        {
+          "id": "diagnose-an-unexpected-result",
+          "title": "Diagnose an unexpected result",
+          "level": 2
+        }
+      ],
+      "routes": [
+        "Pages → Search Engines"
+      ],
+      "menuIds": [
+        "nodes.searchEngines"
+      ]
+    }
+  ],
+  "menuCatalog": [
+    {
+      "id": "notification",
+      "label": "Notifications",
+      "parent": null
+    },
+    {
+      "id": "site",
+      "label": "Site",
+      "parent": null
+    },
+    {
+      "id": "site.general",
+      "label": "General",
+      "parent": "site"
+    },
+    {
+      "id": "site.imageTags",
+      "label": "Image tags",
+      "parent": "site"
+    },
+    {
+      "id": "site.types",
+      "label": "Page types",
+      "parent": "site"
+    },
+    {
+      "id": "site.languages",
+      "label": "Languages",
+      "parent": "site"
+    },
+    {
+      "id": "nodes",
+      "label": "Pages",
+      "parent": null
+    },
+    {
+      "id": "nodes.general",
+      "label": "General",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.content",
+      "label": "Main content",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.text",
+      "label": "Text",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.faq",
+      "label": "FAQ",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.howto",
+      "label": "How to",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.specification",
+      "label": "Specifications",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.video",
+      "label": "Video",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.comment",
+      "label": "Comments",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.schema",
+      "label": "Schema",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.extra",
+      "label": "Extra",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.analytics",
+      "label": "Analytics",
+      "parent": "nodes"
+    },
+    {
+      "id": "nodes.searchEngines",
+      "label": "Search Engines",
+      "parent": "nodes"
+    },
+    {
+      "id": "images",
+      "label": "Images",
+      "parent": null
+    },
+    {
+      "id": "images.details",
+      "label": "Details",
+      "parent": "images"
+    },
+    {
+      "id": "images.tags",
+      "label": "Tags",
+      "parent": "images"
+    },
+    {
+      "id": "images.sizes",
+      "label": "Image sizes",
+      "parent": "images"
+    },
+    {
+      "id": "images.source",
+      "label": "AI source",
+      "parent": "images"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "parent": null
+    },
+    {
+      "id": "agents",
+      "label": "Agents",
+      "parent": null
+    },
+    {
+      "id": "themes",
+      "label": "Themes",
+      "parent": null
+    },
+    {
+      "id": "themes.themes",
+      "label": "Themes",
+      "parent": "themes"
+    },
+    {
+      "id": "themes.editor",
+      "label": "Code editor",
+      "parent": "themes"
+    },
+    {
+      "id": "themes.editor.figma",
+      "label": "Figma",
+      "parent": "themes.editor"
+    },
+    {
+      "id": "themes.git",
+      "label": "Git repository",
+      "parent": "themes"
+    },
+    {
+      "id": "themes.history",
+      "label": "History",
+      "parent": "themes"
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "parent": null
+    },
+    {
+      "id": "redirects",
+      "label": "Redirects",
+      "parent": null
+    },
+    {
+      "id": "schema",
+      "label": "Schema",
+      "parent": null
+    },
+    {
+      "id": "schema.definitions",
+      "label": "Definitions",
+      "parent": "schema"
+    },
+    {
+      "id": "schema.pageTypes",
+      "label": "Page types",
+      "parent": "schema"
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "parent": null
+    },
+    {
+      "id": "users",
+      "label": "Users",
+      "parent": null
+    },
+    {
+      "id": "users.roles",
+      "label": "Roles",
+      "parent": "users"
+    },
+    {
+      "id": "users.accounts",
+      "label": "Users",
+      "parent": "users"
+    },
+    {
+      "id": "scripts",
+      "label": "Scripts",
+      "parent": null
+    },
+    {
+      "id": "publish",
+      "label": "Publish",
+      "parent": null
+    },
+    {
+      "id": "publish.settings",
+      "label": "Settings",
+      "parent": "publish"
+    },
+    {
+      "id": "publish.queue",
+      "label": "Publish queue",
+      "parent": "publish"
+    },
+    {
+      "id": "backup",
+      "label": "Backup",
+      "parent": null
+    },
+    {
+      "id": "backup.settings",
+      "label": "Settings",
+      "parent": "backup"
+    },
+    {
+      "id": "backup.files",
+      "label": "Backup files",
+      "parent": "backup"
+    },
+    {
+      "id": "export",
+      "label": "Export",
+      "parent": null
+    },
+    {
+      "id": "sshAccess",
+      "label": "SSH access",
+      "parent": null
+    },
+    {
+      "id": "mcp",
+      "label": "MCP Server",
+      "parent": null
+    },
+    {
+      "id": "mcp.settings",
+      "label": "Settings",
+      "parent": "mcp"
+    },
+    {
+      "id": "mcp.defaultTools",
+      "label": "BidoCMS tools",
+      "parent": "mcp"
+    },
+    {
+      "id": "mcp.panelTools",
+      "label": "Panel tools",
+      "parent": "mcp"
+    },
+    {
+      "id": "mcp.apiTools",
+      "label": "API tools",
+      "parent": "mcp"
+    },
+    {
+      "id": "mcp.themeTools",
+      "label": "Theme tools",
+      "parent": "mcp"
+    },
+    {
+      "id": "mcp.tokens",
+      "label": "Access tokens",
+      "parent": "mcp"
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "parent": null
+    },
+    {
+      "id": "social.instagram",
+      "label": "Instagram",
+      "parent": "social"
+    },
+    {
+      "id": "social.instagram.posts",
+      "label": "Posts",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.instagram.reels",
+      "label": "Reels",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.instagram.stories",
+      "label": "Stories",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.instagram.inbox",
+      "label": "Inbox",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.instagram.insights",
+      "label": "Insights",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.instagram.profile",
+      "label": "Profile",
+      "parent": "social.instagram"
+    },
+    {
+      "id": "social.telegram",
+      "label": "Telegram",
+      "parent": "social"
+    },
+    {
+      "id": "social.telegram.overview",
+      "label": "Overview",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.telegram.bots",
+      "label": "Bots",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.telegram.destinations",
+      "label": "Destinations",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.telegram.publish",
+      "label": "Publish",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.telegram.inbox",
+      "label": "Inbox",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.telegram.events",
+      "label": "Events",
+      "parent": "social.telegram"
+    },
+    {
+      "id": "social.whatsapp",
+      "label": "WhatsApp",
+      "parent": "social"
+    },
+    {
+      "id": "social.linkedin",
+      "label": "LinkedIn",
+      "parent": "social"
+    },
+    {
+      "id": "social.linkedin.overview",
+      "label": "Overview",
+      "parent": "social.linkedin"
+    },
+    {
+      "id": "social.linkedin.profile",
+      "label": "Profile",
+      "parent": "social.linkedin"
+    },
+    {
+      "id": "social.linkedin.posts",
+      "label": "Posts",
+      "parent": "social.linkedin"
+    },
+    {
+      "id": "social.linkedin.media",
+      "label": "Media",
+      "parent": "social.linkedin"
+    },
+    {
+      "id": "social.linkedin.activity",
+      "label": "Activity",
+      "parent": "social.linkedin"
+    },
+    {
+      "id": "social.googleBusiness",
+      "label": "Google Business",
+      "parent": "social"
+    },
+    {
+      "id": "social.googleBusiness.profile",
+      "label": "Profile",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.hours",
+      "label": "Hours",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.attributes",
+      "label": "Attributes",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.reviews",
+      "label": "Reviews",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.posts",
+      "label": "Posts",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.photos",
+      "label": "Photos",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.services",
+      "label": "Services",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.links",
+      "label": "Bookings & links",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.performance",
+      "label": "Performance",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.googleBusiness.tools",
+      "label": "Google tools",
+      "parent": "social.googleBusiness"
+    },
+    {
+      "id": "social.facebook",
+      "label": "Facebook",
+      "parent": "social"
+    },
+    {
+      "id": "social.facebook.posts",
+      "label": "Posts",
+      "parent": "social.facebook"
+    },
+    {
+      "id": "social.facebook.inbox",
+      "label": "Inbox",
+      "parent": "social.facebook"
+    },
+    {
+      "id": "social.facebook.profile",
+      "label": "Profile",
+      "parent": "social.facebook"
+    },
+    {
+      "id": "social.x",
+      "label": "X",
+      "parent": "social"
+    },
+    {
+      "id": "social.x.posts",
+      "label": "Posts",
+      "parent": "social.x"
+    },
+    {
+      "id": "social.x.inbox",
+      "label": "Inbox",
+      "parent": "social.x"
+    },
+    {
+      "id": "social.x.profile",
+      "label": "Profile",
+      "parent": "social.x"
+    },
+    {
+      "id": "console",
+      "label": "Console",
+      "parent": null
+    },
+    {
+      "id": "monitor",
+      "label": "Monitor",
+      "parent": null
+    },
+    {
+      "id": "filemanager",
+      "label": "Files",
+      "parent": null
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "parent": null
+    },
+    {
+      "id": "settings.general",
+      "label": "General",
+      "parent": "settings"
+    },
+    {
+      "id": "settings.maintenance",
+      "label": "Maintenance",
+      "parent": "settings"
+    },
+    {
+      "id": "settings.oauth",
+      "label": "OAuth",
+      "parent": "settings"
+    },
+    {
+      "id": "settings.searchConsole",
+      "label": "Search Console",
+      "parent": "settings"
+    },
+    {
+      "id": "settings.googleAnalytics",
+      "label": "Google Analytics",
+      "parent": "settings"
+    },
+    {
+      "id": "login",
+      "label": "Log In",
+      "parent": null
+    },
+    {
+      "id": "setup",
+      "label": "Set up BidoCMS",
+      "parent": null
+    },
+    {
+      "id": "profile",
+      "label": "Profile",
+      "parent": null
+    },
+    {
+      "id": "profile.details",
+      "label": "Profile details",
+      "parent": "profile"
+    },
+    {
+      "id": "profile.security",
+      "label": "Security",
+      "parent": "profile"
+    },
+    {
+      "id": "logout",
+      "label": "Log out",
+      "parent": null
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "parent": null
+    }
+  ]
+}

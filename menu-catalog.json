@@ -1,0 +1,572 @@
+[
+  {
+    "id": "notification",
+    "label": "Notifications",
+    "parent": null
+  },
+  {
+    "id": "site",
+    "label": "Site",
+    "parent": null
+  },
+  {
+    "id": "site.general",
+    "label": "General",
+    "parent": "site"
+  },
+  {
+    "id": "site.imageTags",
+    "label": "Image tags",
+    "parent": "site"
+  },
+  {
+    "id": "site.types",
+    "label": "Page types",
+    "parent": "site"
+  },
+  {
+    "id": "site.languages",
+    "label": "Languages",
+    "parent": "site"
+  },
+  {
+    "id": "nodes",
+    "label": "Pages",
+    "parent": null
+  },
+  {
+    "id": "nodes.general",
+    "label": "General",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.content",
+    "label": "Main content",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.text",
+    "label": "Text",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.faq",
+    "label": "FAQ",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.howto",
+    "label": "How to",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.specification",
+    "label": "Specifications",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.video",
+    "label": "Video",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.comment",
+    "label": "Comments",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.schema",
+    "label": "Schema",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.extra",
+    "label": "Extra",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.analytics",
+    "label": "Analytics",
+    "parent": "nodes"
+  },
+  {
+    "id": "nodes.searchEngines",
+    "label": "Search Engines",
+    "parent": "nodes"
+  },
+  {
+    "id": "images",
+    "label": "Images",
+    "parent": null
+  },
+  {
+    "id": "images.details",
+    "label": "Details",
+    "parent": "images"
+  },
+  {
+    "id": "images.tags",
+    "label": "Tags",
+    "parent": "images"
+  },
+  {
+    "id": "images.sizes",
+    "label": "Image sizes",
+    "parent": "images"
+  },
+  {
+    "id": "images.source",
+    "label": "AI source",
+    "parent": "images"
+  },
+  {
+    "id": "ai",
+    "label": "AI",
+    "parent": null
+  },
+  {
+    "id": "agents",
+    "label": "Agents",
+    "parent": null
+  },
+  {
+    "id": "themes",
+    "label": "Themes",
+    "parent": null
+  },
+  {
+    "id": "themes.themes",
+    "label": "Themes",
+    "parent": "themes"
+  },
+  {
+    "id": "themes.editor",
+    "label": "Code editor",
+    "parent": "themes"
+  },
+  {
+    "id": "themes.editor.figma",
+    "label": "Figma",
+    "parent": "themes.editor"
+  },
+  {
+    "id": "themes.git",
+    "label": "Git repository",
+    "parent": "themes"
+  },
+  {
+    "id": "themes.history",
+    "label": "History",
+    "parent": "themes"
+  },
+  {
+    "id": "environment",
+    "label": "Environment",
+    "parent": null
+  },
+  {
+    "id": "redirects",
+    "label": "Redirects",
+    "parent": null
+  },
+  {
+    "id": "schema",
+    "label": "Schema",
+    "parent": null
+  },
+  {
+    "id": "schema.definitions",
+    "label": "Definitions",
+    "parent": "schema"
+  },
+  {
+    "id": "schema.pageTypes",
+    "label": "Page types",
+    "parent": "schema"
+  },
+  {
+    "id": "notes",
+    "label": "Notes",
+    "parent": null
+  },
+  {
+    "id": "users",
+    "label": "Users",
+    "parent": null
+  },
+  {
+    "id": "users.roles",
+    "label": "Roles",
+    "parent": "users"
+  },
+  {
+    "id": "users.accounts",
+    "label": "Users",
+    "parent": "users"
+  },
+  {
+    "id": "scripts",
+    "label": "Scripts",
+    "parent": null
+  },
+  {
+    "id": "publish",
+    "label": "Publish",
+    "parent": null
+  },
+  {
+    "id": "publish.settings",
+    "label": "Settings",
+    "parent": "publish"
+  },
+  {
+    "id": "publish.queue",
+    "label": "Publish queue",
+    "parent": "publish"
+  },
+  {
+    "id": "backup",
+    "label": "Backup",
+    "parent": null
+  },
+  {
+    "id": "backup.settings",
+    "label": "Settings",
+    "parent": "backup"
+  },
+  {
+    "id": "backup.files",
+    "label": "Backup files",
+    "parent": "backup"
+  },
+  {
+    "id": "export",
+    "label": "Export",
+    "parent": null
+  },
+  {
+    "id": "sshAccess",
+    "label": "SSH access",
+    "parent": null
+  },
+  {
+    "id": "mcp",
+    "label": "MCP Server",
+    "parent": null
+  },
+  {
+    "id": "mcp.settings",
+    "label": "Settings",
+    "parent": "mcp"
+  },
+  {
+    "id": "mcp.defaultTools",
+    "label": "BidoCMS tools",
+    "parent": "mcp"
+  },
+  {
+    "id": "mcp.panelTools",
+    "label": "Panel tools",
+    "parent": "mcp"
+  },
+  {
+    "id": "mcp.apiTools",
+    "label": "API tools",
+    "parent": "mcp"
+  },
+  {
+    "id": "mcp.themeTools",
+    "label": "Theme tools",
+    "parent": "mcp"
+  },
+  {
+    "id": "mcp.tokens",
+    "label": "Access tokens",
+    "parent": "mcp"
+  },
+  {
+    "id": "social",
+    "label": "Social",
+    "parent": null
+  },
+  {
+    "id": "social.instagram",
+    "label": "Instagram",
+    "parent": "social"
+  },
+  {
+    "id": "social.instagram.posts",
+    "label": "Posts",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.instagram.reels",
+    "label": "Reels",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.instagram.stories",
+    "label": "Stories",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.instagram.inbox",
+    "label": "Inbox",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.instagram.insights",
+    "label": "Insights",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.instagram.profile",
+    "label": "Profile",
+    "parent": "social.instagram"
+  },
+  {
+    "id": "social.telegram",
+    "label": "Telegram",
+    "parent": "social"
+  },
+  {
+    "id": "social.telegram.overview",
+    "label": "Overview",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.telegram.bots",
+    "label": "Bots",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.telegram.destinations",
+    "label": "Destinations",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.telegram.publish",
+    "label": "Publish",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.telegram.inbox",
+    "label": "Inbox",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.telegram.events",
+    "label": "Events",
+    "parent": "social.telegram"
+  },
+  {
+    "id": "social.whatsapp",
+    "label": "WhatsApp",
+    "parent": "social"
+  },
+  {
+    "id": "social.linkedin",
+    "label": "LinkedIn",
+    "parent": "social"
+  },
+  {
+    "id": "social.linkedin.overview",
+    "label": "Overview",
+    "parent": "social.linkedin"
+  },
+  {
+    "id": "social.linkedin.profile",
+    "label": "Profile",
+    "parent": "social.linkedin"
+  },
+  {
+    "id": "social.linkedin.posts",
+    "label": "Posts",
+    "parent": "social.linkedin"
+  },
+  {
+    "id": "social.linkedin.media",
+    "label": "Media",
+    "parent": "social.linkedin"
+  },
+  {
+    "id": "social.linkedin.activity",
+    "label": "Activity",
+    "parent": "social.linkedin"
+  },
+  {
+    "id": "social.googleBusiness",
+    "label": "Google Business",
+    "parent": "social"
+  },
+  {
+    "id": "social.googleBusiness.profile",
+    "label": "Profile",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.hours",
+    "label": "Hours",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.attributes",
+    "label": "Attributes",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.reviews",
+    "label": "Reviews",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.posts",
+    "label": "Posts",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.photos",
+    "label": "Photos",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.services",
+    "label": "Services",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.links",
+    "label": "Bookings & links",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.performance",
+    "label": "Performance",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.googleBusiness.tools",
+    "label": "Google tools",
+    "parent": "social.googleBusiness"
+  },
+  {
+    "id": "social.facebook",
+    "label": "Facebook",
+    "parent": "social"
+  },
+  {
+    "id": "social.facebook.posts",
+    "label": "Posts",
+    "parent": "social.facebook"
+  },
+  {
+    "id": "social.facebook.inbox",
+    "label": "Inbox",
+    "parent": "social.facebook"
+  },
+  {
+    "id": "social.facebook.profile",
+    "label": "Profile",
+    "parent": "social.facebook"
+  },
+  {
+    "id": "social.x",
+    "label": "X",
+    "parent": "social"
+  },
+  {
+    "id": "social.x.posts",
+    "label": "Posts",
+    "parent": "social.x"
+  },
+  {
+    "id": "social.x.inbox",
+    "label": "Inbox",
+    "parent": "social.x"
+  },
+  {
+    "id": "social.x.profile",
+    "label": "Profile",
+    "parent": "social.x"
+  },
+  {
+    "id": "console",
+    "label": "Console",
+    "parent": null
+  },
+  {
+    "id": "monitor",
+    "label": "Monitor",
+    "parent": null
+  },
+  {
+    "id": "filemanager",
+    "label": "Files",
+    "parent": null
+  },
+  {
+    "id": "settings",
+    "label": "Settings",
+    "parent": null
+  },
+  {
+    "id": "settings.general",
+    "label": "General",
+    "parent": "settings"
+  },
+  {
+    "id": "settings.maintenance",
+    "label": "Maintenance",
+    "parent": "settings"
+  },
+  {
+    "id": "settings.oauth",
+    "label": "OAuth",
+    "parent": "settings"
+  },
+  {
+    "id": "settings.searchConsole",
+    "label": "Search Console",
+    "parent": "settings"
+  },
+  {
+    "id": "settings.googleAnalytics",
+    "label": "Google Analytics",
+    "parent": "settings"
+  },
+  {
+    "id": "login",
+    "label": "Log In",
+    "parent": null
+  },
+  {
+    "id": "setup",
+    "label": "Set up BidoCMS",
+    "parent": null
+  },
+  {
+    "id": "profile",
+    "label": "Profile",
+    "parent": null
+  },
+  {
+    "id": "profile.details",
+    "label": "Profile details",
+    "parent": "profile"
+  },
+  {
+    "id": "profile.security",
+    "label": "Security",
+    "parent": "profile"
+  },
+  {
+    "id": "logout",
+    "label": "Log out",
+    "parent": null
+  },
+  {
+    "id": "help",
+    "label": "Help",
+    "parent": null
+  }
+]
